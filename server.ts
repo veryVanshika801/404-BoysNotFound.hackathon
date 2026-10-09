@@ -17,12 +17,20 @@ async function startServer() {
 
   // Vercel-compatible API route for prescription scanning
   app.post("/api/scan", async (req, res) => {
+    const { image, mimeType, targetLang } = req.body || {};
     try {
-      const { image, mimeType } = req.body || {};
-      const result = await analyzePrescriptionBase64(image, mimeType);
+      const result = await analyzePrescriptionBase64(
+        image,
+        mimeType,
+        targetLang
+      );
       res.status(200).json(result);
     } catch (error: any) {
-      const fallback = await analyzePrescriptionBase64(undefined);
+      const fallback = await analyzePrescriptionBase64(
+        undefined,
+        mimeType,
+        targetLang
+      );
       res.status(200).json(fallback);
     }
   });
