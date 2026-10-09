@@ -1,0 +1,6 @@
+{
+  "name": "Maatra",
+  "description": "A vernacular medicine and visual dose companion with spoken reminders in English, Hindi, Kannada, Tamil, and Telugu.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="maatraGrad" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#maatraGrad)" />
+  <g transform="translate(106, 106)">
+    <rect x="30" y="90" width="240" height="120" rx="60" transform="rotate(-35 150 150)" fill="#FFFFFF" fill-opacity="0.95" />
+    <path d="M150 90 L210 90 A60 60 0 0 1 210 210 L150 210 Z" transform="rotate(-35 150 150)" fill="#DBEAFE" />
+    <circle cx="150" cy="150" r="18" fill="#2563EB" />
+  </g>
+</svg>
