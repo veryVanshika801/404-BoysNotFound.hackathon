@@ -1,10 +1,4 @@
-# MAATRA — Vernacular Medicine & Dose Companion
-
-**Tagline:** Every Dose, In Your Voice.
-
-MAATRA is a medicine-reminder prototype designed to help people follow their prescribed medicine schedules through clear visual information and spoken reminders in their preferred language.
-
-> **Project status:** Prototype / work in progress. This README distinguishes the intended features from features that are actually implemented. Update the status after testing your current code.
+<img width="1600" height="800" alt="image" src="https://github.com/user-attachments/assets/920bc30c-1194-4237-b6af-55ebedf12cbd" />
 
 ## 1. Chosen Problem Statement
 
@@ -18,203 +12,93 @@ MAATRA aims to make a prescribed routine easier to follow by letting users set u
 
 Replace the placeholders below with the exact names and USNs of every team member before submission.
 
-| No. | Team member name | USN |
-|---|---|---|
-| 1 | [Team Member 1] | [USN] |
-| 2 | [Team Member 2] | [USN] |
-| 3 | [Team Member 3] | [USN] |
-| 4 | [Team Member 4] | [USN] |
-| 5 | [Team Member 5] | [USN] |
+USN | Team number name
 
-*Remove unused rows and check that all names and USNs are accurate.*
-## 3. What We Are Building
+2392608015 Seemakurthi Koushitha
 
-We are building a simple, accessible web prototype that helps a user create and follow a medicine reminder routine.
+2392608074 Vanshika
 
-The planned user flow is:
+2392608143  Syed Shaguftah Mahnoor
 
-1. **Choose a language** — select a preferred language from the languages supported by the prototype.
-2. **Add medicine details** — enter the medicine name and the schedule exactly as provided by the prescription or a caregiver.
-3. **Set a schedule** — select reminder times and enter the prescribed instructions without changing them.
-4. **Receive a voice reminder** — hear a spoken reminder in the selected language when the browser and device support it.
-5. **Confirm the dose** — mark the reminder as taken to keep track of the routine.
+2392608119 Siddhika K
 
-### Why MAATRA?
+2392608282 Dipanshi Singh
 
-- **Language accessibility:** spoken reminders can help users who find written English difficult.
-- **Visual support:** simple labels and icons can make schedules easier to understand.
-- **Routine support:** scheduled reminders can help users remember planned doses.
-- **Caregiver-friendly concept:** a clear schedule may help families organise reminders for people they support.
-- **Simple first version:** a web prototype lets us test the core experience before adding more complex services.
+2392608056 Pooja Chandrakar
 
-MAATRA is intended to support an existing prescription—not to diagnose conditions, recommend medicines, change prescriptions, or calculate doses.
+💊 About the WebApp
 
-## 4. Features and Current Status
+A simple, visual medication assistant designed to make taking medicines safer and easier. Users can set up their medication routine using pill colours, shapes, dosage icons, and visual cues instead of relying on small English text. The app also provides spoken reminders in the user’s preferred language, helping senior citizens and parents manage medicines with less confusion and fewer missed doses.
 
-Update this table to reflect what works in the code you are submitting. Do not mark a feature as complete until you have tested it.
-| Feature | Purpose | Status |
-|---|---|---|
-| Responsive web interface | Make the prototype usable on different screen sizes | Planned / verify |
-| Language selection | Let users choose a preferred language | Planned / verify |
-| Medicine schedule form | Enter medicine details and prescribed reminder times | Planned / verify |
-| Visual cues | Use labels/icons for medicine and schedule information | Planned / verify |
-| Browser voice reminders | Speak reminder text where browser speech support is available | Planned / verify |
-| Save schedules locally | Keep reminder data on the device for a prototype | Planned / verify |
-| Mark reminder as taken | Let users record that they have acknowledged a reminder | Planned / verify |
-| Backend / user accounts | Support accounts or shared data if needed | Optional / not assumed complete |
-| Translation service | Translate reminder text into additional languages | Optional / requires validation |
+# Full App Flow Inshort
+1. Set Up Profile – User selects their preferred language and adds their medication details.
+2. Add Medicine – Selects the pill’s colour, shape, dosage, and timing using simple visual options.
+3. Create Routine – Medicines are organized into a clear daily medication schedule.
+4. Get Reminders – The app sends timely visual and spoken alerts in the user’s chosen language.
+5. Track Medication – Users can mark medicines as taken and monitor their daily routine.
 
-## 5. Technology Stack
 
-The planned stack is intentionally lightweight so the first prototype can be built and tested quickly.
+# Demo Credentials
+Prototype: https://404-boys-not-found-hackathon.vercel.app/
 
-- **Frontend:** HTML, CSS, and JavaScript for the interface and user interactions.
-- **Voice reminders:** Browser Speech API / text-to-speech, where supported by the browser and device.
-- **Data storage:** browser local storage for a basic local prototype; SQLite may be used if a backend is added.
-- **Optional backend:** Python Flask for account or API features, if required.
-- **Optional translation:** a translation API or reviewed translations. Medicine names and medical instructions must be checked carefully before use.
+# Features Implemented
+1. User Profile Setup – Set up basic user details and preferred language.
+2. Multilingual Support – Use the app in the user’s preferred language.
+3. Medicine Addition – Add medicines with name, dosage, and schedule.
+4. Visual Medicine Identification – Identify pills using colour and shape.
+5. Visual Dosage Icons – Simple icons make dosage instructions easier to understand.
+6. Medication Routine – Create and organize daily medicine schedules.
+7. Smart Reminders – Receive reminders at scheduled medication times.
+8. Spoken Alerts – Get medication reminders through voice alerts in the selected language.
+9. Dose Tracking – Mark medicines as taken and keep track of completed doses.
+10. Simple Accessibility-Focused UI – Designed with clear visuals and minimal text for easier navigation.
 
-The optional backend and translation service are not required for a basic static prototype. The final stack should match the code actually included in the repository.
+# Why We Approached This Problem
+We chose this problem because medication should be easy to understand, regardless of age or language. Small English text on medicine packaging can create confusion, especially for senior citizens and people managing medicines for multiple family members.
+Our approach was to replace text-heavy instructions with simple visual cues like pill colour, shape, dosage icons, and timings. We also added voice-based reminders in the user’s preferred language, making the routine easier to follow.
+Our goal was to build a solution that is simple, accessible, and practical—reducing missed doses and confusion without making users depend on reading complex instructions.
 
-## 6. Installation and Run Instructions
 
-### Requirements
+# How I Approached the Problem
+We started by focusing on the main challenge: medication instructions are often difficult to understand, especially for senior citizens and people who are not comfortable reading English. We wanted to move away from complicated text-based instructions and create a more visual and easy-to-follow experience.
 
-- A modern web browser such as Chrome, Edge, or Firefox.
-- The project files downloaded or cloned to your computer.
-- If the project uses only HTML, CSS, and JavaScript, no package installation is required.
-- ### Option A — Run a static frontend
+We designed the app around simple visual elements such as pill colour, shape, dosage icons, and clear medication timings. Users can create their own medication routine step by step, making it easier to identify the right medicine and understand when it needs to be taken without depending completely on written instructions.
 
-1. Clone or download this repository.
-2. Open the project folder.
-3. Locate `index.html`.
-4. Open `index.html` in a modern browser.
+To make the solution more accessible, we added multilingual spoken reminders so users can hear their medication alerts in their preferred language. We also included dose tracking to help users keep up with their routine. Overall, our approach was to make medication management simple, visual, accessible, and less dependent on English.
 
-If the project uses browser features that work more reliably through a local web server, run one from the project folder:
+# Trade-offs I Made
+- Simplicity over complexity: Focused on essential medication features instead of adding unnecessary ones.
+- Visuals over text: Used pill colours, shapes, and icons to make instructions easier to understand.
+- Accessibility over convenience: Prioritized multilingual voice reminders over text-only notifications.
+- Core experience over advanced features: Focused on building a reliable medication routine within the available development time.
 
-**Python**
-```bash
-python -m http.server 8000
-```
+# App Architecture
+<img width="1312" height="1199" alt="image" src="https://github.com/user-attachments/assets/fdf2c0e7-c3e2-409a-bd2e-87df59c8b527" />
 
-Then open `http://localhost:8000` in your browser.
+# Flow Summary
+1.User Setup – User creates a profile and selects their preferred language.
+2.Add Medicine – User enters the medicine name, dosage, and timing.
+3.Visual Identification – User selects the pill’s shape and colour for easy recognition.
+4.Create Routine – Medicines are organized into a simple daily schedule.
+5.Set Reminders – The system stores the medication timings and reminder preferences.
+6.Language Processing – The selected language is used to prepare the reminder message.
+7.Voice Generation – The AI Voice API converts the reminder into spoken audio.
+8.Alert Scheduling – Background jobs check upcoming doses and trigger reminders on time.
+9.Spoken Notification – The user receives a voice alert in their chosen language along with visual cues.
+10.Dose Tracking – The user marks the medicine as taken, helping track adherence and notify caregivers when needed.
 
-If your main HTML file is in a subfolder, start the server from that folder instead.
+# Tech Stack
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/b60686dc-9a0c-4fda-8129-d2c42b4cf036" />
 
-### Option B — If a Flask backend has been implemented
+# Component Interaction Flow
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/31f102bd-3d3f-41d0-8daf-9fc5445719fd" />
 
-Use this section only if the repository actually contains a Flask backend and a `requirements.txt` file.
+# Frontend Backend Architecture Flow
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/71b36b0e-fdc5-4e44-8ed9-5ba2b53e0da0" />
 
-```bash
-python -m venv .venv
-```
 
-Activate the environment:
+# Project Structure
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/5c177b3d-c906-46f6-9bd9-cf0daf686166" />
 
-**Windows**
-```bash
-.venv\Scripts\activate
-```
-
-**macOS / Linux**
-```bash
-source .venv/bin/activate
-```
-
-Install dependencies and start the application:
-
-```bash
-pip install -r requirements.txt
-python app.py
-```
-
-The exact start command may differ depending on the backend entry file. Follow the actual project files and update these instructions before submission.
-
-### Browser voice reminder notes
-
-- Speech synthesis support and available voices vary by browser, device, and language.
-- Some browsers require the user to interact with the page before audio can play.
-- Test voice reminders on the devices and languages you intend to demonstrate.
-- Do not assume that a reminder will sound if the browser is closed, the device is muted, or notifications/audio are blocked.
-
-## 7. How to Use the Prototype
-
-1. Open MAATRA in a supported browser.
-2. Choose a language that has been verified in testing.
-3. Enter the medicine information and timing exactly as written on the existing prescription or provided by a qualified healthcare professional.
-4. Save the schedule if local saving is implemented.
-5. Allow or enable sound if the browser requests it.
-6. Check that the reminder is spoken correctly.
-7. Use the confirmation control to mark the reminder as taken, if this feature is implemented.
-
-For demonstrations, use fictional sample medicine data. Do not upload or display real patient information without appropriate permission and safeguards.
-
-## 8. Workflow
-
-**Language selection → Medicine details → Schedule → Voice alert → Confirmation**
-
-- **Language:** choose a supported preferred language.
-- **Medicine details:** enter the prescribed information.
-- **Schedule:** set the reminder time according to the existing prescription.
-- **Voice alert:** hear the reminder where speech support is available.
-- **Confirmation:** record whether the reminder was acknowledged.
-
-## 9. Safety, Privacy, and Limitations
-
-- MAATRA is a reminder aid, not a medical decision-making system.
-- It does not diagnose, prescribe, recommend a medicine, or calculate or modify a dose.
-- Users should follow the prescription and consult a qualified healthcare professional if instructions are unclear.
-- Visual appearance alone cannot reliably identify a pill. Users must verify medicine details against the original packaging or with a pharmacist/healthcare professional.
-- Translation may be inaccurate. Medical wording, medicine names, and instructions require careful review.
-- Voice support varies by device, browser, permissions, and available language voices.
-- A browser-only prototype may not deliver reliable reminders when the page is closed or the device is offline.
-- Local browser storage is not a secure shared medical record and may be cleared by the browser or device.
-- Do not store unnecessary personal or health information in a demo.
-- Use fictional sample data for public demonstrations.
-
-## 10. Honest Unfinished Features
-
-Complete this section before submission. Keep only the items that are still unfinished.
-
-- [ ] Language selection has been tested with every language shown in the interface.
-- [ ] Spoken reminders have been tested on the demonstration device.
-- [ ] Reminder scheduling has been tested for the required times and edge cases.
-- [ ] Saved schedules remain available after refreshing or reopening the page.
-- [ ] The “mark as taken” action updates the displayed schedule correctly.
-- [ ] Translation has been reviewed by a competent speaker; medical wording has been checked.
-- [ ] Backend, accounts, and database features are implemented and tested, if included in the claimed scope.
-- [ ] Accessibility checks have been completed, including readable text, keyboard navigation, and clear controls.
-- [ ] Installation instructions have been verified on a clean setup.
-
-**Known limitations in the current build:**  
-[Write the limitations you personally observed while testing. Do not claim that a feature works unless you verified it.]
-
-## 11. Future Improvements
-
-- Add larger text, high-contrast controls, and a simpler senior-friendly interface.
-- Support caregiver-assisted schedule setup with appropriate privacy controls.
-- Improve reminder reliability and explain when alerts may not work.
-- Add carefully reviewed language options.
-- Add secure accounts or synchronisation only if needed and properly protected.
-- Conduct usability testing with consent and feedback from intended users.
-
-## 12. Demo Checklist
-
-Before presenting:
-
-- [ ] Confirm the problem statement and team member details.
-- [ ] Run the application from the instructions above.
-- [ ] Demonstrate the language-selection flow.
-- [ ] Add a fictional medicine schedule.
-- [ ] Demonstrate a voice reminder in a tested language.
-- [ ] Demonstrate confirmation / “mark as taken” if implemented.
-- [ ] Explain which features are complete, partial, or planned.
-- [ ] Mention safety limitations and use only sample data.
-
-## 13. Project Details
-
-- **Project name:** MAATRA
-- **Problem statement:** 2 — Vernacular Medicine and Dose Companion
-- **Tagline:** Every Dose, In Your Voice.
-- **Project type:** Web prototype
-- **Development status:** Work in progress; update based on the submitted build.
+# Deployment
+<img width="1224" height="1285" alt="image" src="https://github.com/user-attachments/assets/b40c4b06-2cfb-47a6-9940-5132ac040be7" />
