@@ -66,7 +66,7 @@ We designed the app around simple visual elements such as pill colour, shape, do
 
 To make the solution more accessible, we added multilingual spoken reminders so users can hear their medication alerts in their preferred language. We also included dose tracking to help users keep up with their routine. Overall, our approach was to make medication management simple, visual, accessible, and less dependent on English.
 
-# Trade-offs I Made
+# Trade-offs We Made
 - Simplicity over complexity: Focused on essential medication features instead of adding unnecessary ones.
 - Visuals over text: Used pill colours, shapes, and icons to make instructions easier to understand.
 - Accessibility over convenience: Prioritized multilingual voice reminders over text-only notifications.
