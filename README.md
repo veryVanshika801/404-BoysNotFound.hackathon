@@ -1,6 +1,6 @@
 <img width="1600" height="800" alt="image" src="https://github.com/user-attachments/assets/920bc30c-1194-4237-b6af-55ebedf12cbd" />
 
-## 1. Chosen Problem Statement
+## Chosen Problem Statement
 
 **Problem Statement 2: Vernacular Medicine and Dose Companion**
 
@@ -8,7 +8,7 @@ People may miss medicine doses, confuse similar-looking pills, or misunderstand 
 
 MAATRA aims to make a prescribed routine easier to follow by letting users set up medicine reminders with visual cues—such as pill colour, pill shape, and dosage icons—and receive spoken reminders in a language they understand. The goal is to reduce dependence on reading English when following an existing prescription.
 
-## 2. Team Members
+## Team Members
 
 Replace the placeholders below with the exact names and USNs of every team member before submission.
 
