@@ -22,7 +22,7 @@ USN | Team number name
 
 2392608119 Siddhika K
 
-2392608282 Dipanshi Singh
+2392608282 Dipanshi Singh 
 
 2392608056 Pooja Chandrakar
 
