@@ -59,7 +59,7 @@ Our approach was to replace text-heavy instructions with simple visual cues like
 Our goal was to build a solution that is simple, accessible, and practical—reducing missed doses and confusion without making users depend on reading complex instructions.
 
 
-# How I Approached the Problem
+# How We Approached the Problem
 We started by focusing on the main challenge: medication instructions are often difficult to understand, especially for senior citizens and people who are not comfortable reading English. We wanted to move away from complicated text-based instructions and create a more visual and easy-to-follow experience.
 
 We designed the app around simple visual elements such as pill colour, shape, dosage icons, and clear medication timings. Users can create their own medication routine step by step, making it easier to identify the right medicine and understand when it needs to be taken without depending completely on written instructions.
