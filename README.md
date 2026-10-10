@@ -10,8 +10,6 @@ MAATRA aims to make a prescribed routine easier to follow by letting users set u
 
 ## Team Members
 
-Replace the placeholders below with the exact names and USNs of every team member before submission.
-
 USN | Team member name
 
 2392608015 Seemakurthi Koushitha
